@@ -1,0 +1,39 @@
+/* #2196F3 - акцент */
+/* #757575 - цвет контактов шапки */
+/* #212121 - цвет заголовков, цвет навигации*/
+/* #757575 - цвет абзацев */
+/* #2F303A - цвет герой-футер */
+/* #F5F5F5 - цвет секция 3,4 */
+/* #F5F4FA - цвет секция команда */
+/* #000000 - цвет лого */
+/* #FFFFFF - цвет адрес,  цвет фона шапки, главного заголовка */
+body {
+	background-color: #f5f5f5;
+	color: #757575;
+}
+ul {
+	list-style: none;
+}
+/* Header CSS */
+.page-header {
+	background-color: #ffffff;
+}
+.logo {
+	color: #000000;
+}
+.part-logo {
+	color: #2196f3;
+}
+
+.site-nav .link {
+	color: #212121;
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: #2196f3;
+}
+
+/* MAIN CSS (without hero) */
+.section .section-title {
+	color: #212121;
+}
