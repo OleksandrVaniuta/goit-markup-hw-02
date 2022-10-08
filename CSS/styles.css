@@ -24,7 +24,12 @@ ul {
 }
 
 /* Header CSS */
-
+.container {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+}
 .page-header {
 	background-color: #ffffff;
 }
@@ -56,6 +61,11 @@ ul {
 .site-nav .link.current {
 	color: var(--acent-color);
 }
+
+.list {
+	margin: 0;
+	padding: 0;
+}
 .page-header .contacts {
 	color: #757575;
 	font-weight: 500;
@@ -73,8 +83,13 @@ ul {
 
 .hero {
 	background-color: #2f303a;
+	text-align: center;
+	margin-bottom: 94px;
 }
 .hero-title {
+	margin-top: 0;
+	margin-bottom: 30px;
+
 	color: #ffffff;
 	font-weight: 900;
 	font-size: 44px;
@@ -103,22 +118,56 @@ ul {
 	line-height: 1.14;
 }
 
-.preference.text {
+.preference {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	/* margin-top: 0; */
+	margin-bottom: 100px;
+}
+
+.preference .section-title {
+	margin-top: 0;
+	margin-bottom: 10px;
+}
+.preference .text {
 	font-size: 14px;
 	line-height: 1.71;
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+.container.teams {
+	padding-bottom: 94px;
+	padding-top: 94px;
+}
+.section.workfield {
+	width: 1200px;
+	padding-left: 15px;
+	padding-right: 15px;
+	margin: 0 auto;
+	margin-bottom: 94px;
+}
+.our-workfield {
+	padding: 0;
 }
 
 .section-title.work,
 .section-title.crew {
+	margin-top: 0;
+	margin-bottom: 50px;
 	font-size: 36px;
 	line-height: 1.17;
 	text-align: center;
 }
-.section.crew {
-	background-color: #f5f4fa;
+.team {
+	padding: 0;
 }
 
 .section-title.person {
+	margin-top: 30px;
+	margin-bottom: 10px;
 	font-weight: 500;
 	font-size: 16px;
 	line-height: 1.88;
@@ -126,13 +175,18 @@ ul {
 }
 
 .position {
+	margin-top: 0;
+	margin-bottom: 30px;
 	font-size: 16px;
 	line-height: 1.88;
 	text-align: center;
 }
 
 /* footer CSS */
-
+.container.foot {
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
 .page-footer {
 	background-color: #2f303a;
 }
@@ -140,10 +194,22 @@ ul {
 	color: #ffffff;
 }
 .street {
+	margin: 0;
+	margin-bottom: 9px;
 	color: #ffffff;
 	font-style: normal;
 	font-size: 14px;
 	line-height: 1.71;
+}
+.address {
+	margin-top: 20px;
+}
+.address ul {
+	padding: 0;
+	margin: 0;
+}
+.mail {
+	margin-bottom: 9px;
 }
 .page-footer .contacts {
 	color: rgba(255, 255, 255, 0.6);
