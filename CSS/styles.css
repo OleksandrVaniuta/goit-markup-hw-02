@@ -30,8 +30,15 @@ ul {
 	padding-right: 15px;
 	margin: 0 auto;
 }
+.head {
+	display: flex;
+	align-items: center;
+}
 .page-header {
 	background-color: #ffffff;
+}
+nav {
+	display: block;
 }
 .logo {
 	color: #000000;
@@ -45,8 +52,18 @@ ul {
 .part-logo {
 	color: var(--acent-color);
 }
+.site-nav {
+	display: flex;
+}
+.site-nav .item:not(:last-child) {
+	margin-right: 50px;
+}
 
 .site-nav .link {
+	display: block;
+	padding-top: 20px;
+	padding-bottom: 20px;
+
 	color: var(--title-text-color);
 	font-weight: 500;
 	font-size: 14px;
@@ -63,9 +80,19 @@ ul {
 }
 
 .list {
+	display: flex;
 	margin: 0;
 	padding: 0;
+	margin-left: auto;
 }
+
+.list .item:not(:last-child) {
+	margin-right: 50px;
+}
+/* .list .item:first-child {
+	margin-right: 50px;
+} */
+
 .page-header .contacts {
 	color: #757575;
 	font-weight: 500;
@@ -221,8 +248,16 @@ ul {
 }
 
 /* portfolio filters CSS */
-
+.filters {
+	width: 575px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
 .filters .button {
+	border-color: transparent;
+	border-radius: 4px;
+	padding: 6px 25px;
+
 	color: #212121;
 	background-color: #f5f4fa;
 	font-weight: 500;
@@ -237,12 +272,22 @@ ul {
 }
 
 .section-title.project {
+	margin-top: 20px;
+	margin-bottom: 4px;
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
 }
 
+.projects {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+
 .projects p {
+	margin-top: 0;
+	margin-bottom: 20px;
 	font-size: 16px;
 	line-height: 1.88;
 }
