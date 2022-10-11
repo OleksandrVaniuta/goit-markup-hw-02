@@ -294,6 +294,7 @@ nav {
 .filters {
 	display: flex;
 	justify-content: center;
+	margin-top: 94px;
 	margin-bottom: 50px;
 }
 .filters .item:not(:last-child) {
@@ -350,4 +351,8 @@ nav {
 	margin-bottom: 20px;
 	font-size: 16px;
 	line-height: 1.88;
+}
+.projects p,
+.projects h3 {
+	margin-left: 24px;
 }
